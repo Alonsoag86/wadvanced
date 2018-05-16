@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Final</title>
+  <meta name="description" content="The Dummy Page">
+  <meta name="author" content="Parsons">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<style>
+</style>
+
+</head>
+
+<body>
+    <!-- this is a test h1 block -->
+    <h1 id="title">
+      Earthquake Watch
+    </h1>
+    </br>
+    <p> Select a 24 hour time frame and generate a table that displays the earthquakes that were reported to the <a href="https://earthquake.usgs.gov/data/dyfi/"> Did You Feel It</a> system, as well as a map displaying all the tremors registered within those 24 hours. </p>
+
+      <form>
+        <input id="datepicker" />
+      </form>
+
+      <button id="GetData">Get Data</button>
+      <h2 id=count></h2>
+      <h2 id=felt></h2>
+      <div id=location></div>
+      <table id="maint">
+        <tr>
+          <th>Place</th>
+          <th>Magnitude</th>
+          <th>Number of Reports</th>
+       </tr>
+      </table>
+    </br>
+    <div class='custom-popup' id="map"></div>
+
+    <form id="Output" value="clear" style=""></form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet'>
+     <!--<script type="text/javascript" src="script.js"></script>--> 
+    <!--<script type="text/javascript" src="script2.js"></script>-->
+    <script type="text/javascript" src="final.js"></script>
+</body>
+    <!--<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_YhtjfROKuFSViOMoJs0eOWgSHcw4cKE
+        &libraries=visualization&callback=initMap">-->
+    </script>
+</html>

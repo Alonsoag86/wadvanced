@@ -1,0 +1,49 @@
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+    color:black;
+}
+
+  #map {
+        height: 85%;
+      }
+      html, body {
+        height: 100%;
+        margin: 15px;
+        padding: 0;
+        background: #02182b;
+        color: white;
+        font-family: 'Lato', sans-serif;
+      }
+
+      .custom-popup .leaflet-popup-content-wrapper {
+        background:#02182b;
+        color:#fff;
+        font-size:16px;
+        line-height:24px;
+      }
+
+      .custom-popup .leaflet-popup-tip-container {
+        width:30px;
+        height:15px;
+      }
+      .custom-popup .leaflet-popup-tip {
+        border-left:15px solid transparent;
+        border-right:15px solid transparent;
+        border-top:15px solid #2c3e50;
+      }
+
+      a {
+        color: #ffd23f;
+      }
